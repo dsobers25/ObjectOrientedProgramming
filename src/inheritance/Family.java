@@ -20,6 +20,9 @@ public class Family extends WhatWillYouGet {
         System.out.printf("Therefore mother will receive %.2f to keep for herself \n", mom.money);
 
         System.out.printf("Son will receive $%.2f \n", son.money);
-        System.out.printf("Also Daughter will receive the exact same amount of $%.2f dollars", daughter.money);
+        System.out.printf("Also Daughter will receive the exact same amount of $%.2f dollars \n", daughter.money);
+
+        System.out.println("One thing that will be missed is the sounds of his various forms of meditations " );
+        mom.peaceHabits();
     }
 }
