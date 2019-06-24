@@ -6,8 +6,10 @@ public class Family extends WhatWillYouGet {
         Family family = new Family();
         Family mom = new Family();
         Family son = new Family();
+        Family daughter = new Family();
         son.money = son.money *.25;
         mom.money = mom.money * .5;
+        daughter.money = daughter.money * .25;
 
         System.out.printf("Family shall receive $%.2f dollars upon my death as well as a few other valuables\n", family.money);
 
@@ -17,6 +19,7 @@ public class Family extends WhatWillYouGet {
 
         System.out.printf("Therefore mother will receive %.2f to keep for herself \n", mom.money);
 
-        System.out.printf("And son will receive %.2f", son.money);
+        System.out.printf("Son will receive $%.2f \n", son.money);
+        System.out.printf("Also Daughter will receive the exact same amount of $%.2f dollars", daughter.money);
     }
 }
